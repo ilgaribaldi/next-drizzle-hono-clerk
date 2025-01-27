@@ -70,19 +70,20 @@ next-drizzle-hono-clerk/
 │   │   │   ├── sign-up/
 │   │   │   └── forgot-password/
 │   │   ├── (marketing)/
-│   │   │   └── page.tsx       # Landing page
+│   │   │   └── page.tsx                    # Landing page
 │   │   ├── (platform)/
-│   │   │   ├── admin/          # Admin routes
-│   │   │   └── dashboard/      # Dashboard
-│   │   ├── api/
-│   │   │   ├── [[...route]]/route.ts    # Hono route handler
-│   │   │   └── webhooks/clerk/route.ts # Clerk webhook endpoint
-├── drizzle/
-│   ├── schema.ts               # User table schema
-│   ├── db.ts                   # Database connection
-│   └── migrations/
-├── hooks/
-│   └── useGetUser.ts
+│   │   │   ├── admin/                      # Admin only routes
+│   │   │   └── dashboard/                  # Dashboard
+│   │   ├── api/    
+│   │   │   ├── [[...route]]/route.ts       # Hono route handler
+│   │   │   └── webhooks/clerk/route.ts     # Clerk webhook endpoint
+│   ├── db/
+│   │   ├── drizzle.ts
+│   │   └── schema.ts                       # User table schema
+│   ├── features/
+│   │   └── user/                           # User table schema
+│   │   │   └── api/
+│   │   │   │   └── use-get-user.ts         # Example hook to query db user data
 ├── .env.example
 ├── package.json
 └── bun.lockb

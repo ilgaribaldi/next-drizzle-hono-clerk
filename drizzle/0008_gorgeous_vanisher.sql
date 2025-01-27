@@ -1,0 +1,1 @@
+ALTER TYPE "notificationType" ADD VALUE 'DOCUMENT_UPDATE';

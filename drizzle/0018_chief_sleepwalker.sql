@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX IF NOT EXISTS "reservation_unique_idx" ON "reservation" USING btree ("userId","orgId","unitId","presaleId");

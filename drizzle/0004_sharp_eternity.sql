@@ -1,0 +1,2 @@
+CREATE UNIQUE INDEX IF NOT EXISTS "notification_user_conversation_idx" ON "notification" USING btree ("userId","conversationId");--> statement-breakpoint
+CREATE UNIQUE INDEX IF NOT EXISTS "notification_org_conversation_idx" ON "notification" USING btree ("organizationId","conversationId");

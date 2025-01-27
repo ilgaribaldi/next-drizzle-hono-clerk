@@ -13,6 +13,8 @@ A boilerplate to kickstart your Next.js project with authentication, database, a
   - Clerk webhook endpoint listener
 - **Drizzle ORM**: Schema-first ORM with a pre-configured user table and database setup.
 - **Hono**: Lightweight and fast API routing.
+- **React Query**: Powerful data fetching and caching library.
+- **Shadcn**: UI components library.
 - **Pre-built db hooks**:
   - Basic `/user` API route to retrieve user information.
   - `useGetUser` hook for fetching db user data.

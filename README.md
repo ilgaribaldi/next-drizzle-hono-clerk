@@ -50,7 +50,6 @@ A boilerplate to kickstart your Next.js project with authentication, database, a
    ```
 
 4. **Run the Development Server**  
-   Start the server:
    ```bash
    bun run dev
    ```

@@ -1,1 +1,0 @@
-CREATE INDEX IF NOT EXISTS "video_presale_idx" ON "video" USING btree ("presaleId");

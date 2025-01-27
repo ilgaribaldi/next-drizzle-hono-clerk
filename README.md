@@ -81,7 +81,7 @@ next-drizzle-hono-clerk/
 │   │   ├── drizzle.ts
 │   │   └── schema.ts                       # User table schema
 │   ├── features/
-│   │   └── user/                           # User table schema
+│   │   └── user/                           
 │   │   │   └── api/
 │   │   │   │   └── use-get-user.ts         # Example hook to query db user data
 ├── .env.example

@@ -6,15 +6,18 @@ A boilerplate to kickstart your Next.js project with authentication, database, a
 ## Features
 
 - **Next.js 14**: App Router for modern and scalable architecture.
-- **Clerk**: Authentication made simple with pre-built flows for:
+- **[Neon](https://neon.tech/)**: Serverless Postgres database.
+- **[Drizzle ORM](https://orm.drizzle.team/)**: Schema-first ORM with a pre-configured user table and database setup.
+- **[Clerk](https://clerk.com/)**: Authentication made simple with pre-built flows for:
   - Sign-in
   - Sign-up
   - Forgot password
   - Clerk webhook endpoint listener
-- **Drizzle ORM**: Schema-first ORM with a pre-configured user table and database setup.
-- **Hono**: Lightweight and fast API routing.
+- **[Hono](https://hono.dev/)**: Lightweight and fast API routing.
+- **[Shadcn](https://ui.shadcn.com/)**: UI components library.
+- **[Stripe](https://stripe.com/)**: Payment processing and subscription management.
+- **[Resend](https://resend.com/)**: Email sending service.
 - **React Query**: Powerful data fetching and caching library.
-- **Shadcn**: UI components library.
 - **Pre-built db hooks**:
   - Basic `/user` API route to retrieve user information.
   - `useGetUser` hook for fetching db user data.
@@ -40,7 +43,7 @@ A boilerplate to kickstart your Next.js project with authentication, database, a
      cp .env.example .env
      ```
    - Add your credentials for the following environment variables:
-     - **Clerk API keys** (from [Clerk](https://clerk.com/)):
+     - **Clerk API keys**:
        - `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
        - `CLERK_SECRET_KEY`
        - `CLERK_WEBHOOK_SECRET`
@@ -48,13 +51,13 @@ A boilerplate to kickstart your Next.js project with authentication, database, a
        - `NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL`
        - `NEXT_PUBLIC_CLERK_SIGN_IN_URL`
        - `NEXT_PUBLIC_CLERK_SIGN_UP_URL`
-     - **Database URL** (from [Neon](https://neon.tech/)):
+     - **Database URL**:
        - `DATABASE_URL`
-     - **Stripe API keys** (from [Stripe](https://stripe.com/)):
+     - **Stripe API keys**:
        - `STRIPE_API_KEY`
        - `STRIPE_WEBHOOK_SECRET`
        - `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`
-     - **Resend API key** (from [Resend](https://resend.com/)):
+     - **Resend API key**:
        - `RESEND_API_KEY`
      - **Email settings**:
        - `EMAIL_FROM`

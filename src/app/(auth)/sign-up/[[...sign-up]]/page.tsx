@@ -17,7 +17,7 @@ import { AmbientColor } from "../../components/ambient-color";
 
 const SignUp = () => {
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative w-full overflow-hidden px-8">
       <AmbientColor />
       <Form />
     </div>

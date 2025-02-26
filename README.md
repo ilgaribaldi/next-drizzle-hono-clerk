@@ -39,12 +39,26 @@ A boilerplate to kickstart your Next.js project with authentication, database, a
      ```bash
      cp .env.example .env
      ```
-   - Add your credentials:
-     - **Clerk API keys**:
+   - Add your credentials for the following environment variables:
+     - **Clerk API keys** (from [Clerk](https://clerk.com/)):
        - `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
        - `CLERK_SECRET_KEY`
-     - **Database URL**:
-       - `DATABASE_URL` (from your Neon PostgreSQL database)
+       - `CLERK_WEBHOOK_SECRET`
+       - `NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL`
+       - `NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL`
+       - `NEXT_PUBLIC_CLERK_SIGN_IN_URL`
+       - `NEXT_PUBLIC_CLERK_SIGN_UP_URL`
+     - **Database URL** (from [Neon](https://neon.tech/)):
+       - `DATABASE_URL`
+     - **Stripe API keys** (from [Stripe](https://stripe.com/)):
+       - `STRIPE_API_KEY`
+       - `STRIPE_WEBHOOK_SECRET`
+       - `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`
+     - **Resend API key** (from [Resend](https://resend.com/)):
+       - `RESEND_API_KEY`
+     - **Email settings**:
+       - `EMAIL_FROM`
+       - `EMAIL_TO`
 
 4. **Generate the DB Schema**  
    ```bash

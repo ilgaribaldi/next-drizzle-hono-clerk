@@ -46,7 +46,7 @@ A boilerplate to kickstart your Next.js project with authentication, database, a
      cp .env.example .env
      ```
    - Add your credentials for the following environment variables:
-     - **Clerk API keys**:
+     - **Clerk**:
        - `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
        - `CLERK_SECRET_KEY`
        - `CLERK_WEBHOOK_SECRET`
@@ -54,15 +54,14 @@ A boilerplate to kickstart your Next.js project with authentication, database, a
        - `NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL`
        - `NEXT_PUBLIC_CLERK_SIGN_IN_URL`
        - `NEXT_PUBLIC_CLERK_SIGN_UP_URL`
-     - **Database URL**:
+     - **Database**:
        - `DATABASE_URL`
-     - **Stripe API keys**:
+     - **Stripe**:
        - `STRIPE_API_KEY`
        - `STRIPE_WEBHOOK_SECRET`
        - `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`
-     - **Resend API key**:
+     - **Resend**:
        - `RESEND_API_KEY`
-     - **Email settings**:
        - `EMAIL_FROM`
        - `EMAIL_TO`
 

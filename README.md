@@ -1,7 +1,7 @@
 
 # next-drizzle-hono-clerk
 
-A boilerplate to kickstart your Next.js project with authentication, database, and API routes pre-configured. This starter template is designed to save time by setting up all the essentials for you.
+A boilerplate to kickstart your Next.js project with authentication, database, and API routes pre-configured. Webhook endpoints for Stripe, and clerk included.
 
 ## Features
 
@@ -116,6 +116,8 @@ next-drizzle-hono-clerk/
 - **Bun**: For package management and running the project.
 - **Clerk Account**: For managing user authentication.
 - **Neon PostgreSQL Database**: For database storage.
+- **Stripe Account**: For managing payments.
+- **Resend Account**: For sending emails.
 
 ## Customization
 

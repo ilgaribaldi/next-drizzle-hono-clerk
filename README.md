@@ -5,7 +5,7 @@ A boilerplate to kickstart your Next.js project with authentication, database, a
 
 ## Features
 
-- **Next.js 14**: App Router for modern and scalable architecture.
+- **[Next.js 14](https://nextjs.org/)**: App Router for modern and scalable architecture.
 - **[Neon](https://neon.tech/)**: Serverless Postgres database.
 - **[Drizzle ORM](https://orm.drizzle.team/)**: Schema-first ORM with a pre-configured user table and database setup.
 - **[Clerk](https://clerk.com/)**: Authentication made simple with pre-built flows for:
@@ -17,6 +17,9 @@ A boilerplate to kickstart your Next.js project with authentication, database, a
 - **[Shadcn](https://ui.shadcn.com/)**: UI components library.
 - **[Stripe](https://stripe.com/)**: Payment processing and subscription management.
 - **[Resend](https://resend.com/)**: Email sending service.
+
+## Additional Tools
+
 - **React Query**: Powerful data fetching and caching library.
 - **Pre-built db hooks**:
   - Basic `/user` API route to retrieve user information.
